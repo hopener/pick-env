@@ -1,0 +1,18 @@
+# modules
+node_modules
+
+# metadata
+.DS_Store
+
+# environment files
+.env*
+
+# ide
+.vscode
+
+# lock files
+pnpm-lock.yaml
+
+# Build
+dist
+tsconfig.tsbuildinfo

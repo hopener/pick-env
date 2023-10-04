@@ -1,0 +1,31 @@
+{
+  "name": "@hopener/pick-env",
+  "author": "Artem Kurtiak",
+  "description": "Pick env for running scripts",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "pick-env": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "cross-spawn": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "dotenv-expand": "^10.0.0",
+    "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.4",
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
